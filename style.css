@@ -1,0 +1,106 @@
+
+
+body {
+    height: 100%; 
+    margin: 0; 
+    /* background-color:rgb(2, 48, 2) ; */
+}
+.container-fluid {
+    min-height: 100vh; 
+}
+
+.container-custom-height {
+    /* border: 7px solid da;  */
+    border-radius: 30px; 
+    padding: 15px; 
+    margin: 0 auto; 
+    background-color: #f8f9fa; 
+    box-sizing: border-box; 
+    width: 100%; 
+    max-width: 900px; 
+    overflow: hidden;
+}
+
+.img-container {
+    position: relative; 
+    height: 100%; 
+    overflow: hidden; 
+}
+
+.image {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 20px;
+}
+
+.bg-light-custom {
+    background-color: #f8f9fa;
+}
+.border-radius-5 {
+    border-radius: 5px; 
+}
+
+.custom-color-btn{
+    background-color: darkblue;
+    color: white;
+    font-size: 1.2rem;
+
+}
+.custom-color-btn:hover {
+    background-color: transparent; 
+    color: darkblue; 
+    border: 2px solid darkblue; 
+}
+h1{
+    color: rgb(2, 48, 2);
+}
+
+.navbar-custom{
+    background-color: rgb(1, 47, 1);
+}
+
+.name{
+    color: white;
+}
+.logout{
+    background-color:rgb(224, 198, 148);
+    color: black;
+}
+
+.logout:hover{
+    color: black;
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-container .bi-eye,
+.password-container .bi-eye-slash {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.password-container .form-control {
+    padding-right: 40px; 
+}
+
+.password-container1 {
+    position: relative;
+}
+
+.password-container1 .bi-eye,
+.password-container1 .bi-eye-slash {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    cursor: pointer;
+}
+
+.password-container1 .form-control {
+    padding-right: 40px; 
+}
