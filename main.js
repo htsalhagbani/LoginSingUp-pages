@@ -73,7 +73,7 @@ btnSignUp.addEventListener('click', (event) => {
         })
         .then(response => response.json())
         .then(data => {
-            window.location.href = `index.html?name=${encodeURIComponent(data.name)}`;
+            window.location.href = `home.html?name=${encodeURIComponent(data.name)}`;
         })
         
 });

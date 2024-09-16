@@ -38,7 +38,7 @@ await fetch(url)
     let user=data.find(item => item.name === name.value && item.password === password.value);
     
     if (user) {
-        window.location.href = `index.html?name=${encodeURIComponent(user.name)}`;
+        window.location.href = `home.html?name=${encodeURIComponent(user.name)}`;
 
     } else {
         alert('Invalid username or password');

@@ -5,5 +5,5 @@ let userNameinput = nameparse.get('name');
 userName.textContent=`Hello, ${userNameinput}`;
 
 function logout() {
-    window.location.href = 'login.html'; 
+    window.location.href = 'index.html'; 
 }
